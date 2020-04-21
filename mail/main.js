@@ -9,7 +9,9 @@ if (mail.indexOf("@") === -1 || mail.indexOf(".") === -1) {
 
         if (mail == listmail[i]) {
             alert('Sei in lista');
-        } 
+        } else {
+            document.writeln('Non sei in lista');
+        }
     }
 }
 
