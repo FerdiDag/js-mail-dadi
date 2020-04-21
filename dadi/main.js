@@ -10,7 +10,7 @@ if (isNaN(number)) {
     alert('Non hai inserito un numero');
 
 } else {
-    if (number < 0 || number > 6) {
+    if (number < 1 || number > 6) {
         alert('Devi inserire un numetro tra 1 e 6');
     } else {
         if (number > randomvariable) {
