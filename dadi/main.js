@@ -1,6 +1,9 @@
 //"Gioco dei dadi" PC vs. Human: chiedi un numero all'utente tra 1 e 6 (giocata human) e estrai un numero casuale tra 1 e 6 (giocata PC). Chi fa il numero più alto vince!
 var number = prompt('Inserisci un numero tra 1 e 6');
-var randomvariable = Math.floor(Math.random() * 7);
+var min = 1;
+var max = 7;
+var randomvariable = Math.floor(Math.random() * (+max - +min) + +min);
+
 document.writeln(randomvariable);
 
 if (isNaN(number)) {
