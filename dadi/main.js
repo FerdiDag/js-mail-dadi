@@ -4,7 +4,7 @@ var min = 1;
 var max = 7;
 var randomvariable = Math.floor(Math.random() * (+max - +min) + +min);
 
-document.writeln(randomvariable);
+
 
 if (isNaN(number)) {
     alert('Non hai inserito un numero');
@@ -15,11 +15,14 @@ if (isNaN(number)) {
     } else {
         if (number > randomvariable) {
             alert('Hai vinto');
+            document.writeln(randomvariable);
 
         } else if (number < randomvariable) {
             alert('Hai perso');
+            document.writeln(randomvariable);
         } else if (number = randomvariable) {
             alert('Pareggio');
+            document.writeln(randomvariable);
         }
 
     }
