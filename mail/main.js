@@ -4,15 +4,11 @@ var mail = prompt('Qual è il tuo indirizzo email?');
 
 var listmail = ['ferdi.dagostino@gmail.com', 'pippofranco@gmail.com', 'peppe@gmail.com', 'mario@gmail.com','dario@gmail.com' ];
 
- for (var i = 0; i < listmail.length; i++) {
-     listmail[i]
- }
 
- console.log();
 
 if (mail.indexOf("@") === -1 || mail.indexOf(".") === -1) {
     alert("Your email address must include one @ sign and one period");
-} else if (mail ==  ) {
+} else if (mail ==  listmail[0] ) {
     alert('Sei in lista');
 } else {
     alert('Non sei in lista');
