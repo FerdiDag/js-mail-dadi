@@ -20,7 +20,7 @@ if (isNaN(number)) {
         } else if (number < randomvariable) {
             alert('Hai perso');
             document.writeln(randomvariable);
-        } else if (number = randomvariable) {
+        } else if (number == randomvariable) {
             alert('Pareggio');
             document.writeln(randomvariable);
         }
